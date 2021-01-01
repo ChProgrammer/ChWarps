@@ -1,0 +1,9 @@
+name: ChWarps
+version: ${project.version}
+main: me.danielch.chwarps.ChWarps
+api-version: 1.16
+authors: [ DanielCh ]
+description: A simple plugin of warps
+
+commands:
+  chwarps:

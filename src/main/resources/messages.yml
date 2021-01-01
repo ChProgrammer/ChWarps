@@ -1,0 +1,39 @@
+CHAT_PREFIX: "&6&l[&eChWarps&6&l] "
+WARPS_LIST_FORMAT_MESSAGE: "&bWarp name: &3%warp_name%"
+TP_MESSAGE: "&aYou will be teleported in %tp_delay% seconds, don't move!"
+
+COMMAND:
+  HELP_MESSAGE: "&aUse &2/chwarps help &ato see this help list."
+  SET_WARP_MESSAGE: "&aUse &2/chwarps set <name> &ato set a new warp or set a new position to a warp."
+  RENAME_WARP_MESSAGE: "&aUse &2/chwarps rename <name> <new name> &ato rename a warp."
+  DELETE_WARP_MESSAGE: "&aUse &2/chwarps delete <name> &ato delete a warp."
+  LIST_WARPS_MESSAGE: "&aUse &2/chwarps list &ato see a list of warps."
+  TP_WARP_MESSAGE: "&aUse &2/chwarps tp <name> &ato teleport to a warp."
+  RELOAD_PLUGIN_MESSAGE: "&aUse &2/chwarps reload &ato reload the config of plugin."
+
+NOT_PERMISSION:
+  COMMAND: "&cYou don't have permission to execute this command."
+  TELEPORT: "&cYou don't have permission to teleport to this warp."
+
+CORRECT_USAGE:
+  SETWARP: "&aUse &2/chwarp set <name> &ato set a new warp."
+  TP: "&aUse &2/chwarps tp <name> &ato teleport to a warp."
+  RENAMEWARP: "&aUse &2/chwarps rename <name> <new name> &ato rename a warp."
+
+ERROR:
+  ONLY_PLAYER_COMMAND: "&cThis command can only be executed by players!"
+  MESSAGE: "&bUse &3/chwarps help &bto see all commands available!"
+  WARP_NOT_EXIST: "&cWarp with name &4%warp_name% &cdon't exist!"
+  MOVED_BEFORE_TP: "&cYou moved and the teleport &cwas canceled!"
+  WARP_ALREADY_EXIST: "&cWarp with name &4%warp_name% &calready exist!"
+  NO_WARP_FOUND: "&cNo warp found!"
+
+SUCCESSFULLY:
+  SET_WARP: "&aWarp with name &2%warp_name% &ahas been successfully created."
+  REPLACE_WARP: "&aThe position of &2%warp_name% &has been successfully replaced."
+  TP: "&aYou have been successfully teleported to warp &2%warp_name%"
+  RENAME_WARP: "&aThe warp &2%old_warp_name% &ahas been successfully renamed to &2%new_warp_name%"
+  DELETE_WARP: "&aThe warp &2%warp_name% &ahas been successfully deleted."
+
+PLUGIN:
+  RELOAD: "&aThe plugin has been reloaded!"
